@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>F_SharpConsoleApps</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Input.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelloWorld\HelloWorld.fsproj" />
+    <ProjectReference Include="..\HighLowGuess\HighLowGuess.fsproj" />
+  </ItemGroup>
+
+</Project>
